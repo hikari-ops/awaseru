@@ -1,0 +1,254 @@
+{
+  "dictionary_EN_TR": [
+    {
+      "id": 1,
+      "word": "Save",
+      "translation": "Kaydet"
+    },
+    {
+      "id": 2,
+      "word": "Virtual",
+      "translation": "Sanal"
+    },
+    {
+      "id": 3,
+      "word": "Car",
+      "translation": "Araba"
+    },
+    {
+      "id": 4,
+      "word": "Water",
+      "translation": "Su"
+    },
+    {
+      "id": 5,
+      "word": "Game",
+      "translation": "Oyun"
+    },
+    {
+      "id": 6,
+      "word": "File",
+      "translation": "Dosya"
+    },
+    {
+      "id": 7,
+      "word": "True",
+      "translation": "Doğru"
+    },
+    {
+      "id": 8,
+      "word": "False",
+      "translation": "Yanlış"
+    },
+    {
+      "id": 9,
+      "word": "Hate",
+      "translation": "Nefret"
+    },
+    {
+      "id": 10,
+      "word": "History",
+      "translation": "Geçmiş"
+    },
+    {
+      "id": 11,
+      "word": "Color",
+      "translation": "Renk"
+    },
+    {
+      "id": 12,
+      "word": "Love",
+      "translation": "Aşk"
+    },
+    {
+      "id": 13,
+      "word": "Friend",
+      "translation": "Arkadaş"
+    },
+    {
+      "id": 14,
+      "word": "Enemy",
+      "translation": "Düşman"
+    },
+    {
+      "id": 15,
+      "word": "Family",
+      "translation": "Aile"
+    },
+    {
+      "id": 16,
+      "word": "People",
+      "translation": "İnsanlar"
+    },
+    {
+      "id": 17,
+      "word": "Store",
+      "translation": "Mağaza"
+    },
+    {
+      "id": 18,
+      "word": "Birthday",
+      "translation": "Doğum günü"
+    },
+    {
+      "id": 19,
+      "word": "School",
+      "translation": "Okul"
+    },
+    {
+      "id": 20,
+      "word": "University",
+      "translation": "Üniversite"
+    },
+    {
+      "id": 21,
+      "word": "Work",
+      "translation": "İş"
+    },
+    {
+      "id": 22,
+      "word": "Cheat",
+      "translation": "Hile"
+    },
+    {
+      "id": 23,
+      "word": "Chat",
+      "translation": "Sohbet"
+    },
+    {
+      "id": 24,
+      "word": "Champion",
+      "translation": "Şampiyon"
+    },
+    {
+      "id": 25,
+      "word": "Car",
+      "translation": "Araba"
+    },
+    {
+      "id": 26,
+      "word": "Yellow",
+      "translation": "Sarı"
+    },
+    {
+      "id": 27,
+      "word": "Brown",
+      "translation": "Kahverengi"
+    },
+    {
+      "id": 28,
+      "word": "Black",
+      "translation": "Siyah"
+    },
+    {
+      "id": 29,
+      "word": "Twentieth",
+      "translation": "Yirmi"
+    },
+    {
+      "id": 30,
+      "word": "White",
+      "translation": "Beyaz"
+    },
+    {
+      "id": 31,
+      "word": "Password",
+      "translation": "Şifre"
+    },
+    {
+      "id": 32,
+      "word": "Gold",
+      "translation": "Altın"
+    },
+    {
+      "id": 33,
+      "word": "Diamond",
+      "translation": "Elmas"
+    },
+    {
+      "id": 34,
+      "word": "Victory",
+      "translation": "Zafer"
+    },
+    {
+      "id": 35,
+      "word": "Path",
+      "translation": "Yol"
+    },
+    {
+      "id": 36,
+      "word": "Water bottle",
+      "translation": "Su şişesi"
+    },
+    {
+      "id": 37,
+      "word": "Sound",
+      "translation": "Ses"
+    },
+    {
+      "id": 38,
+      "word": "Front",
+      "translation": "Ön"
+    },
+    {
+      "id": 39,
+      "word": "Back",
+      "translation": "Arka"
+    },
+    {
+      "id": 40,
+      "word": "Studient",
+      "translation": "Öğrenci"
+    },
+    {
+      "id": 41,
+      "word": "Green",
+      "translation": "Yeşil"
+    },
+    {
+      "id": 42,
+      "word": "Red",
+      "translation": "Kırmızı"
+    },
+    {
+      "id": 43,
+      "word": "Peace",
+      "translation": "Huzur"
+    },
+    {
+      "id": 44,
+      "word": "Peaceful",
+      "translation": "Huzurlu"
+    },
+    {
+      "id": 45,
+      "word": "Table",
+      "translation": "Masa"
+    },
+    {
+      "id": 46,
+      "word": "Selected",
+      "translation": "Seçilmiş"
+    },
+    {
+      "id": 47,
+      "word": "Headphone",
+      "translation": "Kulaklık"
+    },
+    {
+      "id": 48,
+      "word": "Face",
+      "translation": "Yüz"
+    },
+    {
+      "id": 49,
+      "word": "Food",
+      "translation": "Yemek"
+    },
+    {
+      "id": 50,
+      "word": "End",
+      "translation": "Son"
+    }
+  ]
+}
