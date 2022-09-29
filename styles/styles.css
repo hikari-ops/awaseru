@@ -1,0 +1,77 @@
+:root {
+  --bg_color: #e3ded2;
+  --main_color: #cdbfaf;
+  --sub_color: #9c8d83;
+  --text_color: #eeeeee;
+  --text2_color: #393b3b;
+  --correct_color: #3da86d;
+  --correct_dark_color: #2a7e50;
+  --incorrect_color: #ca4754;
+  --incorrect_dark_color: #7e2a33;
+}
+
+button {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 54px;
+  padding: 0 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  box-sizing: border-box;
+  transform: translate(0, 0);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  margin: 0 24px 24px 0;
+}
+
+button.main-button {
+  color: var(--text2_color);
+  background-color: var(--main_color);
+  border: 3px solid var(--sub_color);
+  box-shadow: 0px 5px 0 0 var(--sub_color);
+}
+
+button.main-button:active {
+  transform: translate(0px, 5px);
+  box-shadow: 0 0 0 0 var(--sub_color);
+}
+
+button.main-button:focus {
+  outline: none;
+}
+
+button.correct-button {
+  color: var(--text_color);
+  background-color: var(--correct_color);
+  border: 3px solid var(--correct_dark_color);
+  box-shadow: 0px 5px 0 0 var(--correct_dark_color);
+}
+
+button.correct-button:active {
+  transform: translate(0px, 5px);
+  box-shadow: 0 0 0 0 var(--correct_dark_color);
+}
+
+button.correct-button:focus {
+  outline: none;
+}
+
+button.incorrect-button {
+  color: var(--text_color);
+  background-color: var(--incorrect_color);
+  border: 3px solid var(--incorrect_dark_color);
+  box-shadow: 0px 5px 0 0 var(--incorrect_dark_color);
+}
+
+button.incorrect-button:active {
+  transform: translate(0px, 5px);
+  box-shadow: 0 0 0 0 var(--incorrect_dark_color);
+}
+
+button.incorrect-button:focus {
+  outline: none;
+}
