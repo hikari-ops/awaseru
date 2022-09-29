@@ -2,6 +2,10 @@
   padding: 0 2rem;
 }
 
+.container[data-bg="true"] {
+  background-color: #f5f5f5;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
