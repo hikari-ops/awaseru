@@ -1,6 +1,13 @@
 import Head from "next/head";
+import SettingHeader from "../components/SettingHeader";
+import words from "../data/words.json";
+import { useEffect } from "react";
 
 export default function Home() {
+  const randomList = (arr) => {
+    return arr.sort(() => Math.random() - Math.PI);
+  };
+
   return (
     <div className="container">
       <Head>
@@ -9,11 +16,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <SettingHeader />
       <main className="buttons">
-        <div class="container">
-          <button class="main-button">Main Button</button>
-          <button class="correct-button">Correct Button</button>
-          <button class="incorrect-button">Incorrect Button</button>
+        <div className="container">
+          {randomList(words.dictionary_EN_TR)
+            .slice(0, 10)
+            .map((word, index) => {
+              return (
+                <div key={index}>
+                  <button className="main-button">{word.word}</button>
+                </div>
+              );
+            })}
+          {/* <button className="main-button">Main Button</button>
+          <button className="correct-button">Correct Button</button>
+          <button className="incorrect-button">Incorrect Button</button> */}
         </div>
       </main>
     </div>

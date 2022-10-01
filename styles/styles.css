@@ -10,6 +10,24 @@
   --incorrect_dark_color: #7e2a33;
 }
 
+.noise_effect {
+  pointer-events: none;
+  position: fixed;
+  isolation: isolate;
+  z-index: 50;
+  opacity: 1;
+  mix-blend-mode: soft-light;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 button {
   border: none;
   display: flex;
@@ -28,50 +46,97 @@ button {
   margin: 0 24px 24px 0;
 }
 
-button.main-button {
+.main-button {
   color: var(--text2_color);
   background-color: var(--main_color);
   border: 3px solid var(--sub_color);
   box-shadow: 0px 5px 0 0 var(--sub_color);
 }
 
-button.main-button:active {
+.main-button:active {
   transform: translate(0px, 5px);
   box-shadow: 0 0 0 0 var(--sub_color);
 }
 
-button.main-button:focus {
+.main-button:focus {
   outline: none;
 }
 
-button.correct-button {
+.correct-button {
   color: var(--text_color);
   background-color: var(--correct_color);
   border: 3px solid var(--correct_dark_color);
   box-shadow: 0px 5px 0 0 var(--correct_dark_color);
 }
 
-button.correct-button:active {
+.correct-button:active {
   transform: translate(0px, 5px);
   box-shadow: 0 0 0 0 var(--correct_dark_color);
 }
 
-button.correct-button:focus {
+.correct-button:focus {
   outline: none;
 }
 
-button.incorrect-button {
+.incorrect-button {
   color: var(--text_color);
   background-color: var(--incorrect_color);
   border: 3px solid var(--incorrect_dark_color);
   box-shadow: 0px 5px 0 0 var(--incorrect_dark_color);
 }
 
-button.incorrect-button:active {
+.incorrect-button:active {
   transform: translate(0px, 5px);
   box-shadow: 0 0 0 0 var(--incorrect_dark_color);
 }
 
-button.incorrect-button:focus {
+.incorrect-button:focus {
   outline: none;
+}
+
+/* Setting CSS */
+
+.setting {
+  margin: 0px 0px 20px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main_color);
+  padding: 5px 15px;
+  border-radius: 7px;
+}
+.setting > p {
+  cursor: pointer;
+  color: var(--sub_color);
+  animation-direction: reverse;
+  transition: all 0.2s ease-in-out;
+}
+
+.setting > p:hover {
+  color: var(--text2_color);
+}
+
+.setting > * {
+  margin: 0 5px;
+}
+
+.setting .brick {
+  width: 2px;
+  height: 20px;
+  border-radius: 99px;
+  background-color: var(--sub_color);
+}
+
+.setting .customInput {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 60px;
+  padding: 5px 3px;
+  color: var(--text2_color);
+}
+
+.setting .customInput::placeholder {
+  color: var(--sub_color);
 }
