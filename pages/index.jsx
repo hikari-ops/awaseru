@@ -1,13 +1,13 @@
 import Head from "next/head";
 import SettingHeader from "../components/SettingHeader";
-import words from "../data/words.json";
+import dynamic from "next/dynamic";
 import { useEffect } from "react";
 
-export default function Home() {
-  const randomList = (arr) => {
-    return arr.sort(() => Math.random() - Math.PI);
-  };
+const Words = dynamic(() => import("../components/Words"), {
+  ssr: false,
+});
 
+export default function Home() {
   return (
     <div className="container">
       <Head>
@@ -17,22 +17,7 @@ export default function Home() {
       </Head>
 
       <SettingHeader />
-      <main className="buttons">
-        <div className="container">
-          {randomList(words.dictionary_EN_TR)
-            .slice(0, 10)
-            .map((word, index) => {
-              return (
-                <div key={index}>
-                  <button className="main-button">{word.word}</button>
-                </div>
-              );
-            })}
-          {/* <button className="main-button">Main Button</button>
-          <button className="correct-button">Correct Button</button>
-          <button className="incorrect-button">Incorrect Button</button> */}
-        </div>
-      </main>
+      <Words />
     </div>
   );
 }
