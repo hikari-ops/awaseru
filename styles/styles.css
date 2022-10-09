@@ -32,7 +32,7 @@ button {
   border: none;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  width: fit-content;
   height: 54px;
   padding: 0 20px;
   border-radius: 8px;
@@ -92,6 +92,20 @@ button {
 
 .incorrect-button:focus {
   outline: none;
+}
+
+/* Words CSS*/
+
+.container {
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 600px;
 }
 
 /* Setting CSS */
