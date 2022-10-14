@@ -41,7 +41,7 @@ button {
   line-height: 30px;
   box-sizing: border-box;
   transform: translate(0, 0);
-  transition: all 0.2s ease;
+  transition: all 0.1s ease;
   cursor: pointer;
   margin: 0 24px 24px 0;
 }
@@ -94,18 +94,32 @@ button {
   outline: none;
 }
 
-/* Words CSS*/
+/* Words CSS */
 
 .container {
   display: flex;
+  justify-content: center;
   width: 400px;
   flex-wrap: wrap;
 }
 
-.buttons {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  width: 600px;
+.word-container {
+  margin-top: 50px;
+  display: flex;
+}
+
+.col {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col:first-child {
+  justify-content: left;
+}
+
+.col:last-child {
+  justify-content: right;
 }
 
 /* Setting CSS */
